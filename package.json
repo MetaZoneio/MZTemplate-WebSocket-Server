@@ -1,0 +1,25 @@
+{
+  "name": "WebSocket-Template",
+  "version": "1.0.0",
+  "description": "MetaZone Meta WebSocket Template",
+  "engines": {
+    "node": "12.x"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaZoneio/WebSocket-Template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/metazoneio/metazone-websockets#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ws": "^7.3.1"
+  }
+}
